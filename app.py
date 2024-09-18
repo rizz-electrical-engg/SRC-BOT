@@ -26,7 +26,7 @@ def home():
         }
     </style>
     <footer>
-        Made with 💕 by Team SPY
+        Made with 💕 by 𝑩𝑯𝑨𝑹𝑻𝑰𝒀𝑬𝑬 𝑳𝑬𝑬𝑪𝑯
     </footer>
     """
 
