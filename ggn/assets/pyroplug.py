@@ -111,7 +111,7 @@ async def send_video_with_chat_id(client, sender, path, caption, duration, hi, w
             progress=progress_for_pyrogram,
             progress_args=(
                 client,
-                '**__Uploading: [Team SPY](https://t.me/devgaganin)__**\n ',
+                '**__Uploading: [LeechxMirrorGroup](https://t.me/LeechxMirrorGroup)__**\n ',
                 upm,
                 time.time()
             )
@@ -145,7 +145,7 @@ async def send_document_with_chat_id(client, sender, path, caption, thumb_path, 
             progress=progress_for_pyrogram,
             progress_args=(
                 client,
-                '**__Uploading:__**\n**__Bot made by [Team SPY](https://t.me/devgaganin)__**',
+                '**__Uploading:__**\n**__Bot made by [LeechxMirrorGroup](https://t.me/LeechxMirrorGroup)__**',
                 upm,
                 time.time()
             )
@@ -364,7 +364,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                 await client.edit_message_text(sender, edit_id, 'poll media cant be saved')
                 return 
             edit = await client.edit_message_text(sender, edit_id, "__**Trying to Download**...")
-            file = await userbot.download_media(msg, progress=progress_for_pyrogram, progress_args=(client, "**__Unrestricting__: __[Team SPY](https://t.me/devgaganin)__**\n ", edit, time.time()))            # Retrieve user's custom renaming preference if set, default to '@devgaganin' otherwise
+            file = await userbot.download_media(msg, progress=progress_for_pyrogram, progress_args=(client, "**__Unrestricting__: __[𝑩𝑯𝑨𝑹𝑻𝑰𝒀𝑬𝑬 𝑳𝑬𝑬𝑪𝑯](https://t.me/LeechxMirrorGroup)__**\n ", edit, time.time()))            # Retrieve user's custom renaming preference if set, default to '@devgaganin' otherwise
             if not file:
               await client.send_message(sender, "Failed to download the media.")
               return None
@@ -477,7 +477,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
             await upm.delete()
             return None
         except (ChannelBanned, ChannelInvalid, ChannelPrivate, ChatIdInvalid, ChatInvalid):
-            await client.edit_message_text(sender, edit_id, "Bot is not in that channel/group \nsend the invite or add session vioa command /addsession link so that bot can join the channel\n\nTo generate session you can use our official bot - @stringsessionAK47bot")
+            await client.edit_message_text(sender, edit_id, "Bot is not in that channel/group \nsend the invite or add session vioa command /addsession link so that bot can join the channel\n\nTo generate session you can use our official bot - SOON")
             return None
     else:
         edit = await client.edit_message_text(sender, edit_id, "Cloning.")
@@ -495,7 +495,7 @@ async def get_bulk_msg(userbot, client, sender, msg_link, i):
 
 # ------------------------ Button Mode Editz FOR SETTINGS ----------------------------
 
-SESSION_CHANNEL = -1002149976449
+SESSION_CHANNEL = -1002161455757
 # MongoDB database name and collection name
 DB_NAME = "smart_users"
 COLLECTION_NAME = "super_user"
@@ -607,7 +607,7 @@ async def set_rename_command(user_id, custom_rename_tag):
 # Function to get the user's custom renaming preference
 def get_user_rename_preference(user_id):
     # Retrieve the user's custom renaming tag if set, or default to '@devgaganin'
-    return user_rename_preferences.get(str(user_id), '@devgaganin')
+    return user_rename_preferences.get(str(user_id), '@RD_C4 @stallinx')
 
 # Function to set custom caption preference
 async def set_caption_command(user_id, custom_caption):
